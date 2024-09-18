@@ -1,0 +1,1 @@
+=IF(SUMPRODUCT(--(UNICODE(MID(B2,ROW(INDIRECT("1:"&LEN(B2))),1))>255))>0, "Contains Invalid Character", "Valid")
